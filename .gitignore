@@ -9,4 +9,4 @@ logs/
 run_result.json
 semantic_manifest.json
 dbt_packages/
-.ipynb/
+*.ipynb
