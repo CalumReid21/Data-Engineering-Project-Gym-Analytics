@@ -6,3 +6,6 @@ target/
 dbt_packages/
 logs/
 .dbt/
+run_result.json
+semantic_manifest.json
+dbt_packages/
