@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_workouts
+    columns:
+      - name: set_id
+        tests:
+          - unique
+          - not_null
+
+      - name: workout_id
+        tests:
+          - not_null
+
+      - name: workout_exercise_id
+        tests:
+          - not_null
+
+      - name: weight
+        tests:
+          - not_null
+
+      - name: reps
+        tests:
+          - not_null

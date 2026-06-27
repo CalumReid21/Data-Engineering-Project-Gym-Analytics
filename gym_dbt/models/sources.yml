@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: gym_raw
+    database: project-e67aa17e-a684-4a34-a02
+    schema: gym_raw
+    tables:
+      - name: workouts
