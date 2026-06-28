@@ -12,7 +12,7 @@ An end-to-end data engineering pipeline built with my own personal gym workout d
 
 ## Key Decisions
 
-**Duplicate rows kept deliberately.**3 sets of 100kg (for example) would be represented as 3 separate rows.
+**Duplicate rows kept deliberately.** 3 sets of 100kg (for example) would be represented as 3 separate rows.
 
 **Rows with missing reps or weight dropped.** Investigated, but determined as insignificant input to overall dataset.
 
@@ -26,6 +26,6 @@ An end-to-end data engineering pipeline built with my own personal gym workout d
 
 Set 1: 120kg, Set 2: 120kg, Set 3: 110kg
 
-**Longest streak of consecutive workouts (days).**
+**Longest streak of consecutive workouts (days):**
 
 8 day streak
