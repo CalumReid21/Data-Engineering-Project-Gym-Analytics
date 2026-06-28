@@ -1,0 +1,13 @@
+gym_dbt:
+  outputs:
+    dev:
+      dataset: gym_dbt
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: europe-west2
+      method: oauth
+      priority: interactive
+      project: project-e67aa17e-a684-4a34-a02
+      threads: 4
+      type: bigquery
+  target: dev
